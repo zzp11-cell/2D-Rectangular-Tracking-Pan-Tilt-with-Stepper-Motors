@@ -1,0 +1,32 @@
+# Build outputs
+MDK-ARM/this/
+MDK-ARM/DebugConfig/
+Drivers/CMSIS/Lib/
+*.o
+*.axf
+*.hex
+*.lst
+*.map
+*.lnp
+*.dep
+*.build_log.htm
+
+# Keil user files
+*.uvguix
+*.uvguix.*
+
+# Local/sensitive files
+*.pem
+*.key
+*.pfx
+*.p12
+*.env
+*.docx
+*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
